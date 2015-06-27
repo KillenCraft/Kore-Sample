@@ -1,5 +1,8 @@
 # Kore Sample Changelog
 
+## 1.3.1
+- Fixed NEI reporting (non-crash) exception even when all is OK
+
 ## 1.3.0
 - Changed logo.
 - Added WeightedSet utility.

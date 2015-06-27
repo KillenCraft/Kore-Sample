@@ -1,5 +1,5 @@
 ## Kore Sample
-**LATEST OFFICIAL VERSION**: [Kore Sample 1.3.0 for MC 1.7.10][latest] ([changelog][changelog.md]) ([all 
+**LATEST OFFICIAL VERSION**: [Kore Sample 1.3.1 for MC 1.7.10][latest] ([changelog][changelog.md]) ([all 
 releases][releases])
 
 [latest]: http://scottk.us/KoreSampleMod

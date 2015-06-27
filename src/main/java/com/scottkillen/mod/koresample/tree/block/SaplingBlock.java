@@ -62,7 +62,12 @@ public abstract class SaplingBlock extends BlockSapling
 
     @SideOnly(Side.CLIENT)
     @Override
-    public final IIcon getIcon(int unused, int metadata) { return subblockIcons.get(mask(metadata)); }
+    public final IIcon getIcon(int unused, int metadata)
+    {
+        int index = mask(metadata);
+        if (index < 0 || index > subblockIcons.size()) index = 0;
+        return subblockIcons.get(index);
+    }
 
     @Override
     public final void func_149878_d(World world, int x, int y, int z, Random rand)

@@ -65,7 +65,7 @@ public abstract class SaplingBlock extends BlockSapling
     public final IIcon getIcon(int unused, int metadata)
     {
         int index = mask(metadata);
-        if (index < 0 || index > subblockIcons.size()) index = 0;
+        if (index < 0 || index >= subblockIcons.size()) index = 0;
         return subblockIcons.get(index);
     }
 

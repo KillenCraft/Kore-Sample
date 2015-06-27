@@ -57,7 +57,7 @@ public abstract class SlabBlock extends BlockSlab
     public final IIcon getIcon(int side, int metadata)
     {
         int index = mask(metadata);
-        if (index < 0 || index > subBlocks.size()) index = 0;
+        if (index < 0 || index >= subBlocks.size()) index = 0;
 
         final DefinesSlab subBlock = subBlocks.get(index);
         final Block modelBlock = subBlock.slabModelBlock();

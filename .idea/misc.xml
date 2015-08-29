@@ -5,6 +5,7 @@
       <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.item.MultiComponent MultiComponent(java.lang.Iterable&lt;com.scottkillen.mod.koresample.common.item.DescribesComponent&gt; components)" />
       <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.util.enums.EnumIndexer EnumIndexer(java.lang.Class&lt;T&gt; enumType)" />
       <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.util.enums.EnumIndexer com.scottkillen.mod.koresample.common.util.enums.EnumIndexer&lt;T&gt; create(java.lang.Class&lt;T&gt; enumType)" />
+      <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.util.string.UnderscoresToCamelCase UnderscoresToCamelCase(java.lang.String input)" />
     </entry_points>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="cpw.mods.fml.common.Mod.Instance" />

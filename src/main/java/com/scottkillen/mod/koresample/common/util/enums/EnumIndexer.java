@@ -11,12 +11,6 @@ public final class EnumIndexer<T extends Enum<T>>
     private EnumIndexer(Class<T> enumType)
     {
         lookup = EnumHashBiMap.create(enumType);
-        int i = 0;
-        for (final T value : enumType.getEnumConstants())
-        {
-            lookup.put(value, i);
-            i++;
-        }
     }
 
     public static <T extends Enum<T>> EnumIndexer<T> create(Class<T> enumType)
@@ -27,4 +21,8 @@ public final class EnumIndexer<T extends Enum<T>>
     public T get(int index) { return lookup.inverse().get(index); }
 
     public int get(T value) { return lookup.get(value); }
+
+    public void put(T key, int value) { lookup.put(key, value); }
+
+    public void put(int key, T value) { lookup.put(value, key); }
 }

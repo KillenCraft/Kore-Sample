@@ -6,9 +6,20 @@
       <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.util.enums.EnumIndexer EnumIndexer(java.lang.Class&lt;T&gt; enumType)" />
       <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.util.enums.EnumIndexer com.scottkillen.mod.koresample.common.util.enums.EnumIndexer&lt;T&gt; create(java.lang.Class&lt;T&gt; enumType)" />
       <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.util.string.UnderscoresToCamelCase UnderscoresToCamelCase(java.lang.String input)" />
+      <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.item.ArmorItem ArmorItem(net.minecraft.item.ItemArmor.ArmorMaterial armorMaterial, int renderIndex, com.scottkillen.mod.koresample.common.item.ArmorType armorType, java.lang.String iconPath)" />
+      <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.item.ArmorType boolean isBoots(int armorType)" />
+      <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.item.ArmorType boolean isChestplate(int armorType)" />
+      <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.item.ArmorType boolean isHelmet(int armorType)" />
+      <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.common.item.ArmorType boolean isLeggings(int armorType)" />
+      <entry_point TYPE="method" FQNAME="com.scottkillen.mod.koresample.config.ConfigEventHandler ConfigEventHandler(java.lang.String modID, java.io.File configFile, com.scottkillen.mod.koresample.config.ConfigSyncable sync, java.lang.String configVersion)" />
+      <entry_point TYPE="class" FQNAME="com.scottkillen.mod.koresample.config.ConfigSyncable" />
+      <entry_point TYPE="class" FQNAME="com.scottkillen.mod.koresample.tree.DefinesTree" />
+      <entry_point TYPE="class" FQNAME="com.scottkillen.mod.koresample.common.util.event.ForgeEventListener" />
+      <entry_point TYPE="field" FQNAME="com.scottkillen.mod.koresample.common.events.FuelBurnTimeEvent fuel" />
     </entry_points>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="cpw.mods.fml.common.Mod.Instance" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="cpw.mods.fml.common.Mod.EventHandler" />
+      <item index="1" class="java.lang.String" itemvalue="cpw.mods.fml.common.Mod.Instance" />
     </list>
   </component>
   <component name="NullableNotNullManager">

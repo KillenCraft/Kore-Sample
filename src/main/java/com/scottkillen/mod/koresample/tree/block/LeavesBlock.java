@@ -131,7 +131,7 @@ public abstract class LeavesBlock extends BlockLeaves
 
     protected abstract String resourcePrefix();
 
-    @SuppressWarnings("OverlyComplexBooleanExpression")
+    @SuppressWarnings({ "OverlyComplexBooleanExpression", "OverlyComplexMethod" })
     @SideOnly(Side.CLIENT)
     @Override
     public final boolean shouldSideBeRendered(IBlockAccess blockAccess, int x, int y, int z, int side)

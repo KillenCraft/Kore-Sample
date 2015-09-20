@@ -5,6 +5,7 @@ import cpw.mods.fml.common.eventhandler.Event;
 import cpw.mods.fml.common.eventhandler.EventBus;
 import javax.annotation.Nonnull;
 
+@SuppressWarnings("MethodMayBeStatic")
 public class KoreEventBusDispatcher
 {
     private static final EventBus EVENT_BUS = new EventBus();

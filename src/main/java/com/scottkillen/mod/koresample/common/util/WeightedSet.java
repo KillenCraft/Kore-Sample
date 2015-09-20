@@ -3,6 +3,7 @@ package com.scottkillen.mod.koresample.common.util;
 import com.google.common.base.Objects;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
+import javax.annotation.Nonnull;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Random;
@@ -55,15 +56,18 @@ public class WeightedSet<T>  implements Collection<T>
     @Override
     public boolean contains(Object o) { return elements.contains(o); }
 
+    @Nonnull
     @Override
     public Iterator<T> iterator() { return elements.iterator(); }
 
+    @Nonnull
     @Override
     public Object[] toArray() { return elements.toArray(); }
 
+    @Nonnull
     @SuppressWarnings({ "SuspiciousToArrayCall", "TypeParameterHidesVisibleType" })
     @Override
-    public <T> T[] toArray(T[] a) { return elements.toArray(a); }
+    public <T> T[] toArray(@Nonnull T[] a) { return elements.toArray(a); }
 
     @Override
     public boolean add(T t) { return elements.add(t); }
@@ -72,16 +76,16 @@ public class WeightedSet<T>  implements Collection<T>
     public boolean remove(Object o) { return elements.remove(o); }
 
     @Override
-    public boolean containsAll(Collection<?> c) { return elements.containsAll(c); }
+    public boolean containsAll(@Nonnull Collection<?> c) { return elements.containsAll(c); }
 
     @Override
-    public boolean addAll(Collection<? extends T> c) { return elements.addAll(c); }
+    public boolean addAll(@Nonnull Collection<? extends T> c) { return elements.addAll(c); }
 
     @Override
-    public boolean removeAll(Collection<?> c) { return elements.removeAll(c); }
+    public boolean removeAll(@Nonnull Collection<?> c) { return elements.removeAll(c); }
 
     @Override
-    public boolean retainAll(Collection<?> c) { return elements.retainAll(c); }
+    public boolean retainAll(@Nonnull Collection<?> c) { return elements.retainAll(c); }
 
     @Override
     public void clear() { elements.clear(); }

@@ -15,6 +15,7 @@ import java.util.Date;
 import java.util.Map;
 import java.util.Set;
 
+@SuppressWarnings("WeakerAccess")
 public final class ConfigEventHandler
 {
     private final File configFile;

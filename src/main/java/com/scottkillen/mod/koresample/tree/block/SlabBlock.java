@@ -5,6 +5,7 @@ import java.util.Collection;
 
 // Use com.scottkillen.mod.koresample.common.block.SlabBlock instead
 // This is left to honor the api contract
+@SuppressWarnings({ "WeakerAccess", "ClassNameSameAsAncestorName" })
 @Deprecated
 public abstract class SlabBlock extends com.scottkillen.mod.koresample.common.block.SlabBlock
 {

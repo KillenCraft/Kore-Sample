@@ -4,6 +4,7 @@ import com.scottkillen.mod.koresample.tree.block.SaplingBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemMultiTexture;
 
+@SuppressWarnings("WeakerAccess")
 public abstract class SaplingItem extends ItemMultiTexture
 {
     // This provides a reminder that you must extend this class and change the constructor to accept your extension of

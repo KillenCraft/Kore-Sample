@@ -19,6 +19,7 @@ import com.scottkillen.mod.koresample.common.block.SlabBlock;
 import com.scottkillen.mod.koresample.tree.block.WoodBlock;
 import java.util.List;
 
+@SuppressWarnings("WeakerAccess")
 public class TreeSpeciesLoader
 {
     private final TreeTaxonomy taxonomy;

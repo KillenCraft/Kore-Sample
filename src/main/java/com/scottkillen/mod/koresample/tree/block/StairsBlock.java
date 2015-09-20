@@ -4,6 +4,7 @@ import com.scottkillen.mod.koresample.tree.DefinesStairs;
 
 // Use com.scottkillen.mod.koresample.common.block.StairsBlock instead
 // This is left to honor the api contract
+@SuppressWarnings({ "WeakerAccess", "ClassNameSameAsAncestorName" })
 @Deprecated
 public abstract class StairsBlock extends com.scottkillen.mod.koresample.common.block.StairsBlock
 {

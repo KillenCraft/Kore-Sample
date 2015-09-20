@@ -41,6 +41,7 @@ public abstract class SlabBlock extends BlockSlab
 
     private static int mask(int metadata) {return metadata & METADATA_MASK;}
 
+    @SuppressWarnings("WeakerAccess")
     public static boolean isSingleSlab(Item item)
     {
         return slabRegistry.isSingleSlab(item);

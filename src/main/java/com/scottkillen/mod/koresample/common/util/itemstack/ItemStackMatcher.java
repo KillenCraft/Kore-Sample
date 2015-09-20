@@ -2,6 +2,7 @@ package com.scottkillen.mod.koresample.common.util.itemstack;
 
 import net.minecraft.item.ItemStack;
 
+@SuppressWarnings("WeakerAccess")
 public class ItemStackMatcher
 {
     private final ItemStack baseline;

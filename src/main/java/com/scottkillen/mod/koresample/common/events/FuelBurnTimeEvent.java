@@ -6,6 +6,7 @@ import javax.annotation.Nonnull;
 
 public class FuelBurnTimeEvent extends Event
 {
+
     private final ItemStack fuel;
     private int burnTime = 0;
 
@@ -14,4 +15,6 @@ public class FuelBurnTimeEvent extends Event
     public int getBurnTime() { return burnTime; }
 
     public void setBurnTime(int burnTime) { this.burnTime = burnTime; }
+
+    public ItemStack getFuel() { return fuel; }
 }

@@ -1,5 +1,10 @@
 # Kore Sample Changelog
 
+## In Development
+- Add MultiComponent base class for defining generic items used for recipe ingredients.
+- Add String helpers.
+- Add ArmorItem and ArmorType
+
 ## 1.3.2
 - Removed broken VersionChecker support.
 

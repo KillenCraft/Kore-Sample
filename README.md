@@ -16,6 +16,8 @@ Kore Sample provides a set of tools and base classes for other Minecraft mods th
 
 [Mod Packs](#mod-packs)
 
+[Server Hosting](#server-hosting)
+
 [Licensing](#licensing)
 
 ### Contributing
@@ -44,6 +46,15 @@ This mod is released to the public domain. (*See [below](#licensing).*) The auth
 anyone can use this software and source code as they wish. This means that anyone has permission to distribute this
 compiled mod in any form, including bundled with other mods in a "mod pack." In fact, this mod was written with that
 purpose in mind.
+
+* * *
+
+#### Server Hosting
+
+This mod is tested on Akliz Game Servers. Sign up now at [akliz.com/scottkillen][akliz]. Use the code 'scottkillen' to receive a 20% discount on your first month.
+
+[![Akliz Hosting](https://raw.githubusercontent.com/MinecraftModArchive/assets/master/akliz%20660x90%20singular.png)][akliz]
+[akliz]: http://akliz.com/scottkillen
 
 * * *
 
@@ -77,3 +88,5 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 For more information, please refer to [unlicense.org](http://unlicense.org/).
 
 ![Public Domain](https://raw.githubusercontent.com/MinecraftModArchive/assets/master/pd-icon.png)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-940955-7/KoreSample/README.md)](https://github.com/igrigorik/ga-beacon?flat)

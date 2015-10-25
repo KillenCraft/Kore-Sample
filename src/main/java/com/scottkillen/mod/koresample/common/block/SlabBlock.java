@@ -69,7 +69,10 @@ public abstract class SlabBlock extends BlockSlab
     @Override
     public final Item getItemDropped(int metadata, Random unused, int unused2)
     {
-        final DefinesSlab subBlock = subBlocks.get(mask(metadata));
+        int index = mask(metadata);
+        if (index < 0 || index >= subBlocks.size()) index = 0;
+
+        final DefinesSlab subBlock = subBlocks.get(index);
         return Item.getItemFromBlock(subBlock.singleSlabBlock());
     }
 

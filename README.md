@@ -6,8 +6,8 @@
 releases][releases])
 
 [latest]: https://www.curseforge.com/minecraft/mc-mods/kore-sample
-[releases]: /scottkillen-minecraft-mods/kore-sample/releases
-[changelog.md]: /scottkillen-minecraft-mods/kore-sample/blob/master/src/main/resources/CHANGELOG.md
+[releases]: https://github.com/scottkillen-minecraft-mods/kore-sample/releases
+[changelog.md]: https://github.com/scottkillen-minecraft-mods/kore-sample/blob/master/src/main/resources/CHANGELOG.md
 
 Kore Sample provides a set of tools and base classes for other Minecraft mods that depend on it.
 
@@ -34,8 +34,8 @@ before submitting it.
 you add/change xxx?" or "Hey, I found an exploit.", etc.).
 5. Click `Submit new issue`, and wait for feedback!
 
-[issues]: /scottkillen-minecraft-mods/kore-sample/issues
-[new]: /scottkillen-minecraft-mods/kore-sample/issues/new
+[issues]: https://github.com/scottkillen-minecraft-mods/kore-sample/issues
+[new]: https://github.com/scottkillen-minecraft-mods/kore-sample/issues/new
 
 * * *
 
@@ -54,9 +54,9 @@ purpose in mind.
 
 The logo is a colorized version of ['Half tornado icon'][logo-icon] by [Lorc][lorc-site] under [CC BY 3.0][ccby30].
 
-[logo-icon]: http://game-icons.net/lorc/originals/half-tornado.html
-[lorc-site]: http://lorcblog.blogspot.com/
-[ccby30]: http://creativecommons.org/licenses/by/3.0/
+[logo-icon]: https://game-icons.net/lorc/originals/half-tornado.html
+[lorc-site]: https://lorcblog.blogspot.com/
+[ccby30]: https://creativecommons.org/licenses/by/3.0/
 
 ### Software
 

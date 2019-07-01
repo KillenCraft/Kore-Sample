@@ -1,12 +1,13 @@
-## Kore Sample
+<img src="https://raw.githubusercontent.com/scottkillen-minecraft-mods/kore-sample/develop/art/logo/logo-128.png" align="right" />
+
+
+# Kore Sample
 **LATEST OFFICIAL VERSION**: [Kore Sample 1.3.2 for MC 1.7.10][latest] ([changelog][changelog.md]) ([all 
 releases][releases])
 
-[latest]: http://scottk.us/KoreSampleMod
-[releases]: https://github.com/MinecraftModArchive/KoreSample/releases
-[changelog.md]: https://github.com/MinecraftModArchive/KoreSample/blob/develop/src/main/resources/CHANGELOG.md
-
-![Kore Sample](https://raw.githubusercontent.com/MinecraftModArchive/KoreSample/develop/art/logo/logo-128.png)
+[latest]: https://www.curseforge.com/minecraft/mc-mods/kore-sample
+[releases]: /scottkillen-minecraft-mods/kore-sample/releases
+[changelog.md]: /scottkillen-minecraft-mods/kore-sample/blob/master/src/main/resources/CHANGELOG.md
 
 Kore Sample provides a set of tools and base classes for other Minecraft mods that depend on it.
 
@@ -18,11 +19,11 @@ Kore Sample provides a set of tools and base classes for other Minecraft mods th
 
 [Licensing](#licensing)
 
-### Contributing
+## Contributing
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### Support
+## Support
 Something not quite right?  Have a suggestion?  Found a bug?  Create an issue now!
 
 1. Make sure your issue hasn't already been answered or fixed.  Also think about whether your issue is a valid one
@@ -33,12 +34,12 @@ before submitting it.
 you add/change xxx?" or "Hey, I found an exploit.", etc.).
 5. Click `Submit new issue`, and wait for feedback!
 
-[issues]: /MinecraftModArchive/KoreSample/issues
-[new]: /MinecraftModArchive/KoreSample/issues/new
+[issues]: /scottkillen-minecraft-mods/kore-sample/issues
+[new]: /scottkillen-minecraft-mods/kore-sample/issues/new
 
 * * *
 
-#### Mod Packs
+## Mod Packs
 
 This mod is released to the public domain. (*See [below](#licensing).*) The authors have disclaimed all rights and
 anyone can use this software and source code as they wish. This means that anyone has permission to distribute this
@@ -47,9 +48,9 @@ purpose in mind.
 
 * * *
 
-#### Licensing
+## Licensing
 
-##### Logo
+### Logo
 
 The logo is a colorized version of ['Half tornado icon'][logo-icon] by [Lorc][lorc-site] under [CC BY 3.0][ccby30].
 
@@ -57,7 +58,7 @@ The logo is a colorized version of ['Half tornado icon'][logo-icon] by [Lorc][lo
 [lorc-site]: http://lorcblog.blogspot.com/
 [ccby30]: http://creativecommons.org/licenses/by/3.0/
 
-##### Software
+### Software
 
 This is free and unencumbered software released into the public domain.
 
@@ -76,6 +77,4 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 
 For more information, please refer to [unlicense.org](http://unlicense.org/).
 
-![Public Domain](https://raw.githubusercontent.com/MinecraftModArchive/assets/master/pd-icon.png)
-
-[![Analytics](https://ga-beacon.appspot.com/UA-940955-7/KoreSample/README.md)](https://github.com/igrigorik/ga-beacon?flat)
+![Public Domain](https://user-images.githubusercontent.com/1509989/60407086-3d216600-9b87-11e9-95c4-635839818b3c.png)
